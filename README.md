@@ -22,7 +22,15 @@ TensorFlow 공식 튜토리얼 **「기본 분류: 의류 이미지 분류」 �
 
 내년 수업 전에 한 번 더 "모두 실행"해 보고 이 표에 한 줄 추가하면 됩니다.
 
-## 수업에서 바꿔 보는 값
+## 파라미터 실습 노트북 — `fmnist_experiments.ipynb`
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cfms-lab/FashionMNIST_Colab/blob/main/fmnist_experiments.ipynb)
+
+ch1.4(ANN)에서 배운 **학습률 η · 히든 레이어 · 문턱값 θ · 활성화 함수 σ · 합성곱(CNN)** 을 한 절씩 바꿔 보는 노트북.
+각 절 첫 셀의 대문자 변수(`LEARNING_RATES`, `HIDDEN_CONFIGS`, `USE_BIAS`, `CONFIDENCE_THRESHOLDS`, `ACTIVATIONS`,
+`FILTERS`, `KERNEL_SIZE`, `POOLING`)만 고치고 그 절을 다시 실행합니다. 전체 실행은 CPU 기준 약 8~10분.
+
+## 수업에서 바꿔 보는 값 (`classification.ipynb`)
 
 | 셀 | 바꾸는 값 | 뜻 |
 |---|---|---|
